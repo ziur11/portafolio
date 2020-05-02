@@ -10,7 +10,7 @@ export class InfoPaginaService {
   info: InfoPagina = {};
   cargada = false;
 
-  equipo: any = [] = [];
+  equipo: any [] = [];
 
   constructor( private http: HttpClient) {
 
